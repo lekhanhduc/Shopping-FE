@@ -1,0 +1,15 @@
+.wrapper-page {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    line-height: 100%;
+
+
+    span {
+        font-weight: bold;
+        color: rgb(0, 62, 161);
+        display: block;
+        padding-left: 7px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,7 @@
+.top-deal-container {
+    margin-top: 70px;
+}
+
+.top-deal-container:hover {
+    cursor: pointer;
+}

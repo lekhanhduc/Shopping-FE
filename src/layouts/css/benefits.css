@@ -1,0 +1,14 @@
+.benefits-item:first-child {
+    font-size: 17px;
+    font-weight: 750;
+    padding-left: 5px;
+    color: rgb(0, 62, 161);
+}
+
+.benefits-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 10px;
+    color: rgb(0, 62, 161);
+}

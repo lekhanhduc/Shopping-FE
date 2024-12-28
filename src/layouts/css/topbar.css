@@ -1,0 +1,15 @@
+.content-topbar {
+    color: mediumseagreen;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.content-topbar img {
+    height: 1.2em;
+    width: auto;
+    vertical-align: middle;
+}
