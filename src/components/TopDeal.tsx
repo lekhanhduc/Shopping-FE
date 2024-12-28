@@ -1,4 +1,3 @@
-import React from 'react';
 import { Grid, Box, Typography, Card, CardMedia, CardContent, Button } from '@mui/material';
 import top_deal from '../assets/images/top-deal.png';
 
