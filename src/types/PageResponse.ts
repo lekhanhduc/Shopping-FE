@@ -3,5 +3,5 @@ export interface PageResponse<T> {
     pageSize: number;
     totalPages: number;
     totalElements: number;
-    data: T
+    data: T[];
 }

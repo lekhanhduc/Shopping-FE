@@ -10,7 +10,6 @@ import SellIcon from '@mui/icons-material/Sell';
 const BenefitsBar = () => {
     return (
         <Box
-            className="wrapper-page"
             display="flex"
             justifyContent="space-between"
             alignItems="center"

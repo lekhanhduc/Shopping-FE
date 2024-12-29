@@ -16,3 +16,7 @@
         text-align: center;
     }
 }
+
+.quick-item:hover {
+    cursor: pointer;
+}

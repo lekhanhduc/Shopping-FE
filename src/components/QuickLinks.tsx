@@ -14,42 +14,42 @@ const QuickLinks = () => {
     return (
 
         <div className='container-quick'>
-            <div>
+            <div className='quick-item'>
                 <img src={like} alt="TOP DEAL" />
                 <Link to='/'><span>TOP DEAL</span></Link>
             </div>
-            <div>
+            <div className='quick-item'>
                 <img src={trading} alt="TOP DEAL" />
                 <Link to='/'><span>Trading</span></Link>
             </div>
-            <div>
+            <div className='quick-item'>
                 <img src={coupon} alt="TOP DEAL" />
                 <Link to='/'><span>Siêu hot</span></Link>
             </div>
-            <div>
+            <div className='quick-item'>
                 <img src={clearance_sale} alt="TOP DEAL" />
                 <Link to='/'><span>Xả kho</span></Link>
             </div>
-            <div>
+            <div className='quick-item'>
                 <img src={foreign_goods} alt="TOP DEAL" />
                 <Link to='/'><span>Hàng ngoại</span></Link>
             </div>
 
-            <div>
+            <div className='quick-item'>
                 <img src={baby_and_mother} alt="TOP DEAL" />
                 <Link to='/'><span>Chăm bé</span></Link>
             </div>
 
-            <div>
+            <div className='quick-item'>
                 <img src={book_tiki} alt="TOP DEAL" />
                 <Link to='/'><span>Sách</span></Link>
             </div>
 
-            <div>
+            <div className='quick-item'>
                 <img src={technology} alt="TOP DEAL" />
                 <Link to='/'><span>Công nghệ</span></Link>
             </div>
-            <div>
+            <div className='quick-item'>
                 <img src={kitchen} alt="TOP DEAL" />
                 <Link to='/'><span>Yêu bếp</span></Link>
             </div>

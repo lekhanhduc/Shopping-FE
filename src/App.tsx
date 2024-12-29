@@ -1,17 +1,19 @@
-import './App.css'
-import Category from './components/Category'
-import BenefitsBar from './layouts/BenefitsBar'
-import Header from './layouts/Header'
-import Topbar from './layouts/Topbar'
+import { Route, Router, Routes } from 'react-router-dom';
+import './App.css';
+import HomePage from './pages/HomePage';
+import LayoutUtils from './utils/LayoutUtils';
+import DetailProduct from './pages/DetailProduct';
 
 function App() {
 
   return (
     <div>
-      <Topbar />
-      <Header />
-      <BenefitsBar />
-      <Category />
+      <Routes>
+        <Route path="/" element={<LayoutUtils />}>
+          <Route index element={<HomePage />}></Route>
+          <Route path='detail-product' element={< DetailProduct />}></Route>
+        </Route>
+      </Routes>
     </div>
   )
 }
